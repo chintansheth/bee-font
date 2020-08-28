@@ -1,0 +1,22 @@
+{
+  "name": "bee-font",
+  "version": "1.0.0",
+  "description": "SVG to Font",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chintansheth/bee-font.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chintansheth/bee-font/issues"
+  },
+  "homepage": "https://github.com/chintansheth/bee-font#readme",
+  "dependencies": {
+    "svgtofont": "^3.1.0"
+  }
+}

@@ -1,0 +1,27 @@
+@font-face {font-family: "beefont";
+  src: url('beefont.eot?t=1598622833048'); /* IE9*/
+  src: url('beefont.eot?t=1598622833048#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("beefont.woff2?t=1598622833048") format("woff2"),
+  url("beefont.woff?t=1598622833048") format("woff"),
+  url('beefont.ttf?t=1598622833048') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('beefont.svg?t=1598622833048#beefont') format('svg'); /* iOS 4.1- */
+}
+
+[class^="beefont-"], [class*=" beefont-"] {
+  font-family: 'beefont' !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.beefont-activity:before { content: "\ea01"; }
+.beefont-beehively:before { content: "\ea02"; }
+.beefont-globe-o:before { content: "\ea03"; }
+.beefont-globe:before { content: "\ea04"; }
+
+$beefont-activity: "\ea01";
+$beefont-beehively: "\ea02";
+$beefont-globe-o: "\ea03";
+$beefont-globe: "\ea04";
+
